@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>responsive-forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <form class="registration" method="GET">
+        <div class="left">
+            <label for="firstname">FIRST NAME</label>
+            	<input name="firstname" type="text" placeholder="Paul" autofocus>
+            <label for="lastname">LAST NAME</label>
+            	<input name="lastname" type="text" placeholder="Saad">
+            <label for="emailaddress">EMAIL ADDRESS</label>
+            	<input name="emailaddress" type="email" placeholder="paulsaad@theironyard.com" required>
+            <label for="countrylist">COUNTRY</label>
+            	<input name="countrylist" type="text" list="country" placeholder="Choose a country">
+                    <datalist id="country">
+                        <option value="France">
+                        <option value="Italy">
+                        <option value="Portugal">
+                    </datalist>
+            <label for="bio">BIOGRAPHY</label>
+            	<textarea name="bio"></textarea>
+        </div>
+        <div class="center">
+        	<label for="phonenumber">PHONE NUMBER</label>
+        		<input name="phonenumber" type="text" placeholder="+1 859 746 2992">
+        	<label for="affiliations">AFFILIATIONS</label>
+        		<textarea name="affiliations"></textarea>
+        	<label for="occupation">OCCUPATION</label>
+        		<input name="occupation" type="text" list="occupations" placeholder="Choose an occupation">
+                    <datalist id="occupations">
+                        <option value="Student">
+                        <option value="Teacher">
+                        <option value="Doctor">
+                    </datalist>
+        	<label for="catname">CAT'S NAME</label>
+        		<input name="catname" type="text" placeholder="Paws">
+        	<label for="gadget">FAVORITE GADGET</label>
+        		<input name="gadget" type="text" placeholder="Geiger Counter">
+        </div>
+        <div class="right">
+        	<label for="talent">TYPE OF TALENT</label>
+        		<input name="talent" type="text" list="talents" placeholder="Choose a talent">
+                    <datalist id="talents">
+                        <option value="HTML">
+                        <option value="CSS">
+                        <option value="Both">
+                    </datalist>
+        	<label for="drink">FAVORITE DRINK</label>
+        		<input name="drink" type="text" placeholder="Green Tea">
+        	<label for="power">SPECIAL POWER</label>
+        		<input name="power" type="text" placeholder="Anti-gravity">
+        	<label for="weapon">WEAPON OF CHOICE</label>
+        		<input name="weapon" type="text" placeholder="Sublime Text">
+        	<label for="comments">COMMENTS</label>
+        		<textarea name="comments"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>

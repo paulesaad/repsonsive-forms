@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+	font-size: .75em;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #0fa6ff;
+}
+
+div	{
+	padding:1rem 1rem;
+}
+
+.left {
+	float: left;
+	width:33.3%;
+}
+
+.center {
+	float: left;
+	width:33.3%;
+}
+
+.right {
+	float: left;
+	width:33.3%;
+}
+
+::-webkit-input-placeholder { color:#9900FF; font-style: italic}
+::-moz-placeholder { color:#9900FF; font-style: italic }
+:-ms-input-placeholder { color:#9900FF; font-style: italic} 
+input:-moz-placeholder { color:#9900FF; font-style: italic}
+
+label {
+	color:white;
+	font-size: .9em;
+}
+
+input {
+	display: block;
+	background-color:#0fa6ff;
+	color:white;
+	border: 2px solid white;
+	width:90%;
+	font-size:1.25em;
+	margin-bottom: 2rem;
+}
+
+input:hover, textarea:hover {
+	border: 2px solid #9900FF;
+}
+
+textarea {
+	display: block;
+	background-color:#0fa6ff;
+	color:white;
+	border: 2px solid white;
+	width:90%;
+	font-size: 1.25em;
+	height: 5em;
+	margin-bottom: 2rem;
+	resize:none;
+}
